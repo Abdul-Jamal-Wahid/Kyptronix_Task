@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kyptronix_Task/static/css/main.bce7538c.css",
+    "main.js": "/Kyptronix_Task/static/js/main.d31a0461.js",
+    "index.html": "/Kyptronix_Task/index.html",
+    "main.bce7538c.css.map": "/Kyptronix_Task/static/css/main.bce7538c.css.map",
+    "main.d31a0461.js.map": "/Kyptronix_Task/static/js/main.d31a0461.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bce7538c.css",
+    "static/js/main.d31a0461.js"
+  ]
+}
