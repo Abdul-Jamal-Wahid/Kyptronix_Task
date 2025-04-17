@@ -99,22 +99,25 @@ export default function HomePage() {
       {/* Image Stack */}
 {/* Image Stack */}
 <div className="relative mt-20 flex justify-center items-end gap-[-80px]">
-  
   {/* Left Image */}
-  <div className="relative w-56 h-80 rounded-2xl overflow-hidden shadow-xl transform rotate-[-10deg] z-0 border border-gray-700 scale-90 -mr-16">
+  <div className="relative w-56 h-80 rounded-2xl overflow-hidden shadow-xl transform rotate-[-10deg] z-0 border border-gray-700 scale-90 -mr-16
+    transition duration-500 ease-in-out hover:scale-100 hover:rotate-[-5deg] hover:z-20 hover:shadow-2xl">
     <img src={img1} alt="Preview Left" className="w-full h-full object-cover" />
   </div>
 
   {/* Center Image */}
-  <div className="relative w-72 h-96 rounded-2xl overflow-hidden shadow-2xl border border-gray-500 z-10 bg-black bg-opacity-40 backdrop-blur-md">
+  <div className="relative w-72 h-96 rounded-2xl overflow-hidden shadow-2xl border border-gray-500 z-10 bg-black bg-opacity-40 backdrop-blur-md
+    transition duration-500 ease-in-out hover:scale-105 hover:shadow-[0_0_40px_#00FFFF]">
     <img src={img2} alt="Preview Center" className="w-full h-full object-cover" />
   </div>
 
   {/* Right Image */}
-  <div className="relative w-56 h-80 rounded-2xl overflow-hidden shadow-xl transform rotate-[10deg] z-0 border border-gray-700 scale-90 -ml-16">
+  <div className="relative w-56 h-80 rounded-2xl overflow-hidden shadow-xl transform rotate-[10deg] z-0 border border-gray-700 scale-90 -ml-16
+    transition duration-500 ease-in-out hover:scale-100 hover:rotate-[5deg] hover:z-20 hover:shadow-2xl">
     <img src={img3} alt="Preview Right" className="w-full h-full object-cover" />
   </div>
 </div>
+
           
   
           
